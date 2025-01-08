@@ -269,6 +269,14 @@ p{margin-bottom:0;color:#212121;font-weight:400}
   background-color: #fff!important;
   box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
 }
+
+
+.banner_new_section img {
+  width: 100%;
+  padding:10px;
+
+}
+
 }
 
 @media (max-width: 375px){
