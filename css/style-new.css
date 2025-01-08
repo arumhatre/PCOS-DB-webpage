@@ -26,17 +26,17 @@ a:focus{
 .select2-container{z-index:9999}
 p{margin-bottom:0;color:#000000;font-weight:400}
 
-.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#000000;font-weight:500}
+.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#000000;font-weight:600}
 
 
 @media (max-width:1440px){
- .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:30px;color:#000000;font-weight:500}
+ .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:30px;color:#000000;font-weight:600}
 }
 @media (max-width:1280px){
- .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:26px;color:#000000;font-weight:500}
+ .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:26px;color:#000000;font-weight:600}
 }
 @media (max-width:600px){
-.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:24px;color:#000000;font-weight:500; text-align: left;}
+.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:24px;color:#000000;font-weight:600; text-align: left;}
 }
 .view_more_commmon_btn{margin-top:30px;padding:10px 20px;color:#fff;font-size:16px;text-transform:uppercase;font-weight:500;border-radius:30px;line-height:normal;background-color:#1f83c5}
 .view_more_commmon_btn:hover{color:#fff}
@@ -112,7 +112,7 @@ p{margin-bottom:0;color:#000000;font-weight:400}
 
 .PCOS_div_new p span{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .PCOS_div_new .content_box_why_pcos{
@@ -132,7 +132,7 @@ p{margin-bottom:0;color:#000000;font-weight:400}
 
   .PCOS_div_new p span{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 }
 
