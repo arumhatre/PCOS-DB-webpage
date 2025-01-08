@@ -21,33 +21,122 @@ a:focus{
     color: #626e77;
     font-size: 0.81rem;
 }
-
-
-
-
-
-
-
-
-
 .font-500{font-weight:500!important}
 .form-control{border:1px solid #656565}
 .select2-container{z-index:9999}
-p{margin-bottom:0;color:#212121;font-weight:400}
-.PCOS-div .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#212121;font-weight:400}
-.PCOS-div .treatment_all_heading_page span{font-weight:600;color:#187fc3}
+p{margin-bottom:0;color:#000000;font-weight:400}
+
+.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#000000;font-weight:500}
+
+
 @media (max-width:1440px){
- .PCOS-div .treatment_all_heading_page{margin-bottom:8px;font-size:30px;color:#212121;font-weight:400}
+ .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:30px;color:#000000;font-weight:500}
 }
 @media (max-width:1280px){
- .PCOS-div .treatment_all_heading_page{margin-bottom:8px;font-size:26px;color:#212121;font-weight:400}
+ .PCOS_div_new .treatment_all_heading_page{margin-bottom:8px;font-size:26px;color:#000000;font-weight:500}
 }
 @media (max-width:600px){
-.PCOS-div .treatment_all_heading_page{margin-bottom:10px;font-size:24px;color:#212121;font-weight:400; text-align: center;}
-.PCOS-div .treatment_all_heading_page span{font-weight:600;color:#187fc3}
+.PCOS_div_new .treatment_all_heading_page{margin-bottom:10px;font-size:24px;color:#000000;font-weight:500; text-align: left;}
 }
 .view_more_commmon_btn{margin-top:30px;padding:10px 20px;color:#fff;font-size:16px;text-transform:uppercase;font-weight:500;border-radius:30px;line-height:normal;background-color:#1f83c5}
 .view_more_commmon_btn:hover{color:#fff}
+
+
+
+
+/*==========================================*/
+/* New Banner css*/
+/*==========================================*/
+.banner_new_section{padding:30px 0;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg.webp');background-color:#0c4679;background-size:cover;background-position:center left;background-repeat:no-repeat}
+.banner_new_section h1{font-size:55px;font-weight:700;line-height:normal;color:#fff}
+.banner_new_section img{width:100%}
+.PCOS_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:21px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.PCOS_div_new .talk_about_btn:hover{color:#1f83c5!important}
+@media (max-width:1440px){
+.banner_new_section h1{font-size:45px;font-weight:700;line-height:normal;color:#fff}
+.PCOS_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+}
+@media (max-width:992px){
+.banner_new_section h1{font-size:38px;font-weight:700;line-height:normal;color:#fff}
+.PCOS_div_new .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+}
+@media (max-width:600px){
+.banner_new_section h1{font-size:35px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.banner_new_section{padding:30px 0 15px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg_mob.webp');background-color:#0c4679;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:0 0 20px 20px}
+.PCOS_div_new .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.banner_new_section img{width:100%;padding:15px}
+}
+@media (max-width:400px){
+.banner_new_section h1{font-size:32px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+.PCOS_div_new .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.banner_new_section img{width:100%;padding:10px}
+}
+@media (max-width:375px){
+.banner_new_section img{width:100%;padding:10px}
+}
+@media (max-width:360px){
+.banner_new_section h1{font-size:28px;font-weight:700;line-height:normal;color:#fff;text-align:center}
+}
+
+/*==========================================*/
+/* Why section css*/
+/*==========================================*/
+
+.PCOS_div_new.why_section_PCOS{
+   margin-top: 50px;
+
+}
+
+.PCOS_div_new.why_section_PCOS .container{
+    padding: 40px;
+    background-color: #e0f3ff;
+    border-radius: 20px;
+
+}
+
+.PCOS_div_new .icon_box_why{
+   width: 56px;
+   height: 56px;
+   padding: 10px;
+   margin-right: 12px;
+   background-color: #0c4679;
+   border-radius: 6px;
+}
+
+.PCOS_div_new p{
+    line-height:normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.PCOS_div_new p span{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.PCOS_div_new .content_box_why_pcos{
+   display: inline-flex;
+   align-items: center;
+}
+
+@media (max-width:600px){
+
+    .PCOS_div_new.why_section_PCOS .container{
+        padding: 20px;
+    }
+ 
+  .PCOS_div_new p{
+    width: 85%;
+  }
+
+  .PCOS_div_new p span{
+    font-size: 18px;
+    font-weight: 600;
+}
+}
+
+
 
 /*==========================================*/
 /* Form Form css*/
@@ -85,219 +174,6 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .form_section_div{margin-top:30px}
 }
 
-
-/*==========================================*/
-/* Banner css*/
-/*==========================================*/
-.banner_new_section {
-  padding: 30px 0;
-   background: 
-    linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-    url('../images/banner_bg.webp');
-  background-color: #0c4679; 
-  background-size: cover;
-  background-position: center left;
-  background-repeat: no-repeat;
-}
-.banner_new_section h1 {
-  font-size: 55px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff
-}
-.banner_new_section img {
-  width: 100%
-}
-.PCOS_div_new .talk_about_btn {
-  width: auto;
-  display: inline-block;
-  margin: 10px 0 0 0;
-  padding: 10px 30px;
-  line-height: normal;
-  color: #0c4679;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 21px;
-  text-align: center;
-  border: none;
-  background-color: #fff!important;
-  box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
-}
-.PCOS_div_new .talk_about_btn:hover {
-  color: #1f83c5!important
-}
-
-
-@media (max-width: 1680px){
-}
-
-@media (max-width: 1600px){
-}
-
-@media (max-width: 1440px){
-  
-  .banner_new_section h1 {
-  font-size: 45px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff
-}
-
-.PCOS_div_new .talk_about_btn {
-  width: auto;
-  display: inline-block;
-  margin: 10px 0 0 0;
-  padding: 10px 30px;
-  line-height: normal;
-  color: #0c4679;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 18px;
-  text-align: center;
-  border: none;
-  background-color: #fff!important;
-  box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
-}
-
-}
-
-@media (max-width: 1366px){
-}
-
-@media (max-width: 1024px){
-}
-
-@media (max-width: 992px){
-      .banner_new_section h1 {
-  font-size: 38px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff
-}
-
-.PCOS_div_new .talk_about_btn {
-  width: auto;
-  display: inline-block;
-  margin: 10px 0 0 0;
-  padding: 8px 30px;
-  line-height: normal;
-  color: #0c4679;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  border: none;
-  background-color: #fff!important;
-  box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
-}
-
-}
-
-@media (max-width: 768px){
-}
-
-@media (max-width: 600px){
-
-      .banner_new_section h1 {
-  font-size: 35px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff;
-  text-align: center;
-}
-
-    .banner_new_section {
-  padding: 30px 0 15px;
-   background: 
-    linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
-    url('../images/banner_bg_mob.webp');
-  background-color: #0c4679; 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 0 0 20px 20px;
-}
-
-.PCOS_div_new .talk_about_btn {
-  width: 80%;
-  display: block;
-  text-align: center;
-  margin: 15px auto 20px;
-  padding: 8px 30px;
-  line-height: normal;
-  color: #0c4679;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 18px;
-  text-align: center;
-  border: none;
-  background-color: #fff!important;
-  box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
-}
-
-.banner_new_section img {
-  width: 100%;
-  padding:15px;
-
-}
-
-}
-
-@media (max-width: 400px){
-
-          .banner_new_section h1 {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff;
-  text-align: center;
-}
-
-    .PCOS_div_new .talk_about_btn {
-  width: 80%;
-  display: block;
-  text-align: center;
-  margin: 15px auto 20px;
-  padding: 10px 30px;
-  line-height: normal;
-  color: #0c4679;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  border: none;
-  background-color: #fff!important;
-  box-shadow: 0 4px 15px rgb(175 173 173 / 18%)
-}
-
-
-.banner_new_section img {
-  width: 100%;
-  padding:10px;
-
-}
-
-}
-
-@media (max-width: 375px){
-
-    .banner_new_section img {
-  width: 100%;
-  padding:10px;
-
-}
-}
-
-@media (max-width: 360px){
-          .banner_new_section h1 {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff;
-  text-align: center;
-}
-
-}
 
 
 
