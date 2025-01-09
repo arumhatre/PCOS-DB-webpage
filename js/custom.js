@@ -1,4 +1,13 @@
-
+// ***************** Form Script ****************** //
+  $('input,textarea').val("");
+  $('.form-group input, .form-group textarea, .form-group select').focusout(function() {
+    var text_val = $(this).val();
+    if (text_val === "") {
+      $(this).removeClass('has-value');
+    } else {
+      $(this).addClass('has-value');
+    }
+  });
 // ***************** Form Script ****************** //
 
 $(document).ready(function() {
@@ -6,7 +15,7 @@ $(document).ready(function() {
     $("#googlerating_slider, #Our_pcosreviews_slider").owlCarousel({
       loop: true,
       responsiveClass: true,
-      nav: true,
+      nav: false,
       margin: 20,
       autoplay: true,
       autoplayTimeout: 4000,
