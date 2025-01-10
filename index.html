@@ -323,6 +323,31 @@
       </div>
     </div>
   </section>
+  <section class="doctor_information_section_head PCOS_div_new">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="Medical_reviewd_cls">Medically reviewed by</p>
+          <div class="doctor_section_head">
+            <img src="images/doctor_img.webp" alt="Doctor img" class="img-fluid rounded-circle" width="75" height="75" loading="lazy" />
+            <p>Dr. Sejal Vivek Parekar
+              <br>
+              <span>17+ years of experience</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <a id="show-hidden-menu">See qualifications </a>
+          <div class="hidden-menu" style="display: none;">
+            <div class="qualification_doctor_div">
+              <p><strong>Qualification: </strong>MD (HOM) B.H.M.S(Bom)</p>
+              <p><strong>Total Experience: </strong> 30 Years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="faq_accordation_section PCOS_div_new">
     <div class="container">
       <div class="row">
@@ -332,7 +357,7 @@
           <div class="accordion">
             <div class="accordion__item">
               <div class="accordion__header active" data-toggle="#faq1">How long does the treatment take? </div>
-              <div class="accordion__content" id="faq1" style="max-height: 500px;">
+              <div class="accordion__content" id="faq1">
                 <p>Most patients see improvement in 3-6 months, with continued progress over time.</p>
               </div>
             </div>
@@ -425,53 +450,7 @@
   <script src="js/owl.carousel.min.js" data-cfasync="false"></script>
   <script src="js/custom.js" data-cfasync="false"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-  <script>
-  $(function() {
-    $('.popup-youtube, .popup-vimeo').magnificPopup({
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: true
-    });
-  });
-  </script>
-  <script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', () => {
-    const togglers = document.querySelectorAll('[data-toggle]');
-    togglers.forEach((btn) => {
-      // Check if the header has "active" class when the page loads
-      const targetBlock = document.querySelector(btn.dataset.toggle);
-      if(btn.classList.contains('active')) {
-        targetBlock.style.maxHeight = targetBlock.scrollHeight + 'px'; // Open the active section
-        // Set the parent item as active and apply the red border
-        btn.closest('.accordion__item').classList.add('active');
-      }
-      btn.addEventListener('click', (e) => {
-        const selector = e.currentTarget.dataset.toggle;
-        const block = document.querySelector(selector);
-        // If the section is clicked again (currently open), collapse it
-        if(e.currentTarget.classList.contains('active')) {
-          block.style.maxHeight = ''; // Collapse the section
-          e.currentTarget.closest('.accordion__item').classList.remove('active');
-        } else {
-          block.style.maxHeight = block.scrollHeight + 'px'; // Expand the section
-          e.currentTarget.closest('.accordion__item').classList.add('active');
-        }
-        // Toggle active state
-        e.currentTarget.classList.toggle('active');
-        // Close all other sections (if you only want one to be open at a time)
-        document.querySelectorAll('.accordion__header').forEach(header => {
-          if(header !== e.currentTarget) {
-            header.classList.remove('active');
-            document.querySelector(header.dataset.toggle).style.maxHeight = '';
-            header.closest('.accordion__item').classList.remove('active');
-          }
-        });
-      });
-    });
-  });
-  </script>
+ 
 </body>
 
 </html>

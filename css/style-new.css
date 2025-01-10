@@ -274,6 +274,26 @@ a:focus{
 .PCOS-div.pcos_teartment_section{padding-top:30px}
 }
 
+
+/*==========================================*/
+/* Doctor Information css*/
+/*==========================================*/
+.PCOS_div_new.doctor_information_section_head{margin-top:50px}
+.PCOS_div_new .Medical_reviewd_cls{font-size:18px;font-weight:500;margin-bottom:10px}
+.PCOS_div_new .doctor_section_head{display:inline-flex;align-items:center}
+.PCOS_div_new .doctor_section_head img{margin-right:15px;border:2px solid #0c4679}
+.PCOS_div_new .doctor_section_head p{font-size:21px;font-weight:600;line-height:normal;margin-bottom:5px}
+.PCOS_div_new .doctor_section_head p span{font-size:16px}
+.PCOS_div_new #show-hidden-menu{font-size:16px;color:#1f83c5;font-weight:600}
+.PCOS_div_new #show-hidden-menu::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:18px;height:18px;transition:.4s;display:inline-block;position:relative;top:5px}
+.PCOS_div_new .qualification_doctor_div{font-size:16px;margin-top:10px}
+.PCOS_div_new .qualification_doctor_div p strong{font-weight:600}
+@media screen and (max-width:600px){
+.PCOS_div_new .Medical_reviewd_cls{font-size:16px}
+.PCOS_div_new .doctor_section_head p{font-size:18px}
+.PCOS_div_new .doctor_section_head p span{font-size:14px}
+}
+
 /*==========================================*/
 /* FAQ css*/
 /*==========================================*/
@@ -281,7 +301,7 @@ a:focus{
 .faq_accordation_section .accordion{display:flex;flex-direction:column;gap:10px;width:100%}
 .faq_accordation_section .accordion__item{border:1px solid #ecf0f2;border-radius:10px;overflow:hidden;transition:border .3s}
 .faq_accordation_section .accordion__header{padding:20px 25px;font-weight:600;cursor:pointer;position:relative;font-size:18px}
-.faq_accordation_section .accordion__header::after{content:"";background:url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
+.faq_accordation_section .accordion__header::after{content:"";background:url(../images/angle-down.svg) no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
 .faq_accordation_section .accordion__header.active{background:#ecf0f2}
 .faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
 .faq_accordation_section .accordion__item.active{border:1px solid #000}
@@ -289,5 +309,5 @@ a:focus{
 .faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
 @media screen and (max-width:600px){
 .PCOS_div_new.faq_accordation_section{margin-top:30px;margin-bottom:30px}
-.faq_accordation_section .accordion__header{padding:10px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px}
+.faq_accordation_section .accordion__header{padding:15px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px}
 }
